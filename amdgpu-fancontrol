@@ -4,8 +4,8 @@ HYSTERESIS=6000   # in mK
 SLEEP_INTERVAL=1  # in s
 
 # set temps (in degrees C * 1000) and corresponding pwm values in ascending order and with the same amount of values
-TEMPS=( 0 55000 60000 75000 85000 )
-PWMS=(  0    51    81   153   255 )
+TEMPS=( 0 45000 65000 75000 85000 )
+PWMS=(  0    61    81   153   255 )
 
 # hwmon paths, hardcoded for one amdgpu card at hwmon0, adjust as needed
 FILE_PWM=/sys/class/drm/card0/device/hwmon/hwmon2/pwm1
